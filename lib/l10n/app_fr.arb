@@ -1,0 +1,250 @@
+{
+  "@@locale": "fr",
+
+  "appTitle": "Gestion de stock",
+  "appSubtitle": "Stock et ventes du commerçant",
+
+  "actionSave": "Enregistrer",
+  "actionCancel": "Annuler",
+  "actionDelete": "Supprimer",
+  "actionEdit": "Modifier",
+  "actionAdd": "Ajouter",
+  "actionSearch": "Rechercher",
+  "actionConfirm": "Confirmer",
+  "actionRetry": "Réessayer",
+  "actionClose": "Fermer",
+
+  "fieldName": "Nom",
+  "fieldCategory": "Catégorie",
+  "fieldSupplier": "Fournisseur",
+  "fieldQuantity": "Quantité",
+  "fieldPurchasePrice": "Prix d'achat",
+  "fieldRetailPrice": "Prix de détail",
+  "fieldWholesalePrice": "Prix de gros",
+  "fieldLowStockThreshold": "Seuil d'alerte",
+  "fieldBarcode": "Code-barres",
+  "fieldPhone": "Téléphone",
+  "fieldCompanyName": "Société",
+  "fieldNotes": "Notes",
+
+  "unitPiece": "Pièce",
+  "unitKilogram": "Kilogramme",
+  "unitCarton": "Carton",
+  "unitSack": "Sac",
+  "labelPiecesPerCarton": "Combien de pièces par carton ?",
+  "labelKgPerSack": "Combien de kilos par sac ?",
+
+  "saleModeRetail": "Vente au détail",
+  "saleModeWholesale": "Vente en gros",
+
+  "stockStatusInStock": "En stock",
+  "stockStatusLow": "Stock faible",
+  "stockStatusOutOfStock": "Rupture de stock",
+
+  "reportSubtotal": "Sous-total",
+  "reportDiscount": "Remise",
+  "reportTotal": "Total",
+  "reportProfit": "Bénéfice",
+  "reportCost": "Coût",
+  "reportSalesCount": "Nombre de ventes",
+
+  "errorUnknown": "Une erreur inattendue est survenue.",
+  "errorDatabase": "Erreur d'accès aux données.",
+  "errorValidation": "Les informations saisies sont invalides.",
+  "errorNotFound": "Élément introuvable.",
+  "errorDuplicateBarcode": "Ce code-barres est déjà utilisé par un autre produit.",
+  "errorDuplicateEmail": "Cette adresse e-mail est déjà utilisée.",
+  "errorDuplicateCategoryName": "Une catégorie porte déjà ce nom.",
+  "errorInvalidCredentials": "E-mail ou mot de passe incorrect.",
+  "errorWeakPassword": "Le mot de passe est trop faible.",
+  "errorRecoveryCodeInvalid": "Le code de récupération est incorrect.",
+  "errorSecretAnswerInvalid": "La réponse à la question secrète est incorrecte.",
+  "errorRecoveryLocked": "Trop de tentatives. La question secrète est temporairement bloquée.",
+  "errorCategoryInUse": "Cette catégorie contient des produits et ne peut pas être supprimée.",
+  "errorInsufficientStock": "Stock insuffisant pour cette opération.",
+  "errorEncryption": "Impossible d'accéder à la base chiffrée.",
+  "errorStorage": "Erreur de stockage.",
+  "errorPermissionDenied": "Permission refusée.",
+  "errorPrinterUnavailable": "Imprimante indisponible.",
+  "errorImportInvalidFormat": "Le fichier importé a un format invalide.",
+
+  "authSetupTitle": "Premier accès",
+  "authSetupSubtitle": "Créez votre compte pour sécuriser l'application.",
+  "authLoginTitle": "Connexion",
+  "authLoginSubtitle": "Entrez vos identifiants pour continuer.",
+  "authForgotTitle": "Mot de passe oublié",
+  "authForgotSubtitle": "Vérifiez votre identité pour définir un nouveau mot de passe.",
+
+  "authEmailLabel": "Adresse e-mail",
+  "authPasswordLabel": "Mot de passe",
+  "authConfirmPasswordLabel": "Confirmer le mot de passe",
+  "authSecretQuestionLabel": "Question secrète",
+  "authSecretAnswerLabel": "Réponse à la question secrète",
+  "authRecoveryHintLabel": "Indice pour retrouver le code (facultatif)",
+  "authNewPasswordLabel": "Nouveau mot de passe",
+  "authRecoveryCodeLabel": "Code de récupération",
+
+  "authCreateAccount": "Créer le compte",
+  "authLogin": "Se connecter",
+  "authBiometric": "Connexion biométrique",
+  "authSetPassword": "Définir le mot de passe",
+  "authVerifyCode": "Vérifier le code",
+  "authVerifyAnswer": "Vérifier la réponse",
+  "authContinue": "Continuer",
+
+  "authForgotPassword": "Mot de passe oublié ?",
+
+  "authRecoveryCodeTitle": "Votre code de récupération",
+  "authRecoveryCodeIntro": "Notez et conservez ce code en lieu sûr. Il ne sera plus affiché.",
+  "authRecoveryCodeSavedLabel": "J'ai sauvegardé mon code de récupération",
+
+  "authRecoveryMethodLabel": "Méthode de récupération",
+  "authMethodRecoveryCode": "Code de récupération",
+  "authMethodSecretQuestion": "Question secrète",
+
+  "authLockedTitle": "Accès temporairement bloqué",
+  "authLockedMessage": "Trop de tentatives incorrectes. Par sécurité, la récupération par question secrète est temporairement bloquée.",
+  "authLockedRemaining": "Déblocage dans {minutes} min.",
+  "@authLockedRemaining": {
+    "placeholders": {
+      "minutes": { "type": "int" }
+    }
+  },
+  "authAttemptsRemaining": "Essais restants avant blocage : {count}",
+  "@authAttemptsRemaining": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "authPasswordResetDone": "Mot de passe mis à jour. Connectez-vous avec vos nouveaux identifiants.",
+
+  "authLoading": "Veuillez patienter…",
+  "authBiometricReason": "Confirmez votre identité pour continuer.",
+
+  "validationRequired": "Ce champ est obligatoire.",
+  "validationEmailInvalid": "Adresse e-mail invalide.",
+  "validationPasswordsMismatch": "Les mots de passe ne correspondent pas.",
+
+  "homeTitle": "Tableau de bord",
+  "homeWelcome": "Bienvenue",
+  "homeLockAction": "Verrouiller",
+  "settingsTitle": "Paramètres",
+
+  "actionGenerate": "Générer",
+  "actionScan": "Scanner",
+
+  "catalogTitle": "Catalogue",
+  "catalogOpenAction": "Ouvrir le catalogue",
+  "catalogTabProducts": "Produits",
+  "catalogTabCategories": "Catégories",
+  "catalogTabSuppliers": "Fournisseurs",
+  "catalogEmptyProducts": "Aucun produit pour l'instant.",
+  "catalogEmptyCategories": "Aucune catégorie pour l'instant.",
+  "catalogEmptySuppliers": "Aucun fournisseur pour l'instant.",
+  "catalogNoResults": "Aucun résultat.",
+
+  "productNewTitle": "Nouveau produit",
+  "productEditTitle": "Modifier le produit",
+  "productSearchHint": "Rechercher par nom ou code-barres…",
+  "productFilterCategory": "Toutes les catégories",
+  "productFilterSupplier": "Tous les fournisseurs",
+  "productBarcodeHint": "Laissez vide pour générer automatiquement",
+  "productInitialStock": "Stock initial",
+  "productSoldByCarton": "Vendu aussi au carton",
+  "productSoldBySack": "Vendu aussi au sac",
+  "productActive": "Produit actif",
+  "productInactiveLabel": "Inactif",
+  "productMargin": "Marge unitaire",
+  "fieldBaseUnit": "Unité de vente",
+
+  "categoryNewTitle": "Nouvelle catégorie",
+  "categoryEditTitle": "Modifier la catégorie",
+  "fieldColor": "Couleur",
+
+  "supplierNewTitle": "Nouveau fournisseur",
+  "supplierEditTitle": "Modifier le fournisseur",
+  "supplierCall": "Appeler",
+
+  "deleteConfirmTitle": "Confirmation",
+  "deleteConfirmBody": "Cette action est irréversible.",
+  "productDeleteConfirm": "Supprimer ce produit ?",
+  "categoryDeleteConfirm": "Supprimer cette catégorie ?",
+  "supplierDeleteConfirm": "Supprimer ce fournisseur ?",
+
+  "validationBarcodeInvalid": "Code-barres invalide.",
+  "validationNumberInvalid": "Veuillez saisir un nombre valide.",
+  "validationPositiveNumber": "Veuillez saisir un nombre positif.",
+
+  "scannerTitle": "Scanner un code-barres",
+  "scannerHint": "Placez le code-barres dans le cadre.",
+  "scannerPermissionDenied": "L'accès à la caméra est nécessaire pour scanner.",
+  "scannerUnavailable": "Le scanner n'est pas disponible sur cet appareil.",
+
+  "salesTodayTitle": "Ventes du jour",
+  "salesOpenAction": "Ouvrir les ventes",
+  "saleNewAction": "Nouvelle vente",
+  "saleAddProductAction": "Ajouter un produit",
+  "saleSearchHint": "Rechercher un produit à ajouter…",
+  "saleCartEmpty": "Le panier est vide.",
+  "saleClearAction": "Vider le panier",
+  "saleEmptyToday": "Aucune vente enregistrée aujourd'hui.",
+  "saleNoProductFound": "Aucun produit trouvé.",
+  "saleCheckoutAction": "Encaisser",
+  "saleCheckoutDone": "Vente enregistrée.",
+  "saleDetailTitle": "Détail de la vente",
+  "saleCancelAction": "Annuler la vente",
+  "saleCancelConfirm": "Annuler cette vente et remettre les articles en stock ?",
+  "saleCancelDone": "Vente annulée, articles remis en stock.",
+  "saleCancelledLabel": "Annulée",
+  "saleModeLabel": "Mode de vente",
+  "salePackagingLabel": "Conditionnement",
+  "saleUnitPriceLabel": "Prix unitaire",
+  "saleEditLineTitle": "Modifier la ligne",
+  "saleStockWarning": "Stock disponible insuffisant.",
+  "saleItemsCount": "Articles : {count}",
+  "@saleItemsCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "saleTicketAction": "Ticket",
+  "saleTicketTitle": "Ticket de vente",
+  "saleTicketPrintAction": "Imprimer",
+  "saleTicketShareAction": "Partager le PDF",
+  "saleTicketPrintDone": "Ticket envoyé à l'imprimante.",
+  "saleTicketSelectPrinter": "Choisir une imprimante",
+  "saleTicketNoPrinter": "Aucune imprimante appairée.",
+  "saleTicketQuantityHeader": "Qté",
+  "saleTicketAmountHeader": "Montant",
+
+  "reportsTitle": "Rapports",
+  "reportsOpenAction": "Ouvrir les rapports",
+  "reportPeriodDay": "Jour",
+  "reportPeriodWeek": "Semaine",
+  "reportPeriodMonth": "Mois",
+  "reportPeriodCustom": "Période",
+  "reportPeriodPickRange": "Choisir une plage de dates",
+  "reportRangeSummary": "Du {start} au {end}",
+  "@reportRangeSummary": {
+    "placeholders": {
+      "start": { "type": "String" },
+      "end": { "type": "String" }
+    }
+  },
+  "reportRevenueLabel": "Chiffre d'affaires",
+  "reportAverageBasketLabel": "Panier moyen",
+  "reportQuantitySoldLabel": "Quantité vendue",
+  "reportCancelledCount": "Ventes annulées : {count}",
+  "@reportCancelledCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "reportDailyChartTitle": "Chiffre d'affaires par jour",
+  "reportTopProductsTitle": "Meilleures ventes",
+  "reportEmptyPeriod": "Aucune vente sur cette période.",
+  "reportShareAction": "Partager le PDF",
+  "reportShareDone": "Rapport PDF généré."
+}

@@ -1,0 +1,32 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Génération
+*.g.dart
+*.freezed.dart
+lib/l10n/generated/
+l10n_untranslated.txt
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Platform
+android/.gradle/
+android/local.properties
+android/key.properties
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/ephemeral/
+
+# Divers
+*.log
+*.jks
+*.keystore
+.DS_Store

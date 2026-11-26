@@ -1,0 +1,250 @@
+{
+  "@@locale": "ar",
+
+  "appTitle": "إدارة المخزون",
+  "appSubtitle": "مخزون ومبيعات التاجر",
+
+  "actionSave": "حفظ",
+  "actionCancel": "إلغاء",
+  "actionDelete": "حذف",
+  "actionEdit": "تعديل",
+  "actionAdd": "إضافة",
+  "actionSearch": "بحث",
+  "actionConfirm": "تأكيد",
+  "actionRetry": "إعادة المحاولة",
+  "actionClose": "إغلاق",
+
+  "fieldName": "الاسم",
+  "fieldCategory": "الفئة",
+  "fieldSupplier": "المورد",
+  "fieldQuantity": "الكمية",
+  "fieldPurchasePrice": "سعر الشراء",
+  "fieldRetailPrice": "سعر البيع بالتقسيط",
+  "fieldWholesalePrice": "سعر البيع بالجملة",
+  "fieldLowStockThreshold": "حد التنبيه",
+  "fieldBarcode": "الباركود",
+  "fieldPhone": "الهاتف",
+  "fieldCompanyName": "الشركة",
+  "fieldNotes": "ملاحظات",
+
+  "unitPiece": "قطعة",
+  "unitKilogram": "كيلوغرام",
+  "unitCarton": "كرتون",
+  "unitSack": "كيس",
+  "labelPiecesPerCarton": "كم قطعة في الكرتون؟",
+  "labelKgPerSack": "كم كيلوغرام في الكيس؟",
+
+  "saleModeRetail": "بيع بالتقسيط",
+  "saleModeWholesale": "بيع بالجملة",
+
+  "stockStatusInStock": "متوفر",
+  "stockStatusLow": "مخزون منخفض",
+  "stockStatusOutOfStock": "نفد المخزون",
+
+  "reportSubtotal": "المجموع الفرعي",
+  "reportDiscount": "الخصم",
+  "reportTotal": "المجموع",
+  "reportProfit": "الربح",
+  "reportCost": "التكلفة",
+  "reportSalesCount": "عدد المبيعات",
+
+  "errorUnknown": "حدث خطأ غير متوقع.",
+  "errorDatabase": "خطأ في الوصول إلى البيانات.",
+  "errorValidation": "المعلومات المدخلة غير صحيحة.",
+  "errorNotFound": "العنصر غير موجود.",
+  "errorDuplicateBarcode": "هذا الباركود مستعمل من قبل منتج آخر.",
+  "errorDuplicateEmail": "هذا البريد الإلكتروني مستعمل مسبقاً.",
+  "errorDuplicateCategoryName": "توجد فئة بهذا الاسم بالفعل.",
+  "errorInvalidCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة.",
+  "errorWeakPassword": "كلمة المرور ضعيفة جداً.",
+  "errorRecoveryCodeInvalid": "رمز الاستعادة غير صحيح.",
+  "errorSecretAnswerInvalid": "جواب السؤال السري غير صحيح.",
+  "errorRecoveryLocked": "محاولات كثيرة. السؤال السري مقفل مؤقتاً.",
+  "errorCategoryInUse": "هذه الفئة تحتوي على منتجات ولا يمكن حذفها.",
+  "errorInsufficientStock": "المخزون غير كافٍ لهذه العملية.",
+  "errorEncryption": "تعذّر الوصول إلى القاعدة المشفّرة.",
+  "errorStorage": "خطأ في التخزين.",
+  "errorPermissionDenied": "تم رفض الإذن.",
+  "errorPrinterUnavailable": "الطابعة غير متوفرة.",
+  "errorImportInvalidFormat": "الملف المستورد بصيغة غير صحيحة.",
+
+  "authSetupTitle": "أول دخول",
+  "authSetupSubtitle": "أنشئ حسابك لتأمين التطبيق.",
+  "authLoginTitle": "تسجيل الدخول",
+  "authLoginSubtitle": "أدخل بياناتك للمتابعة.",
+  "authForgotTitle": "نسيت كلمة المرور",
+  "authForgotSubtitle": "تحقق من هويتك لتعيين كلمة مرور جديدة.",
+
+  "authEmailLabel": "البريد الإلكتروني",
+  "authPasswordLabel": "كلمة المرور",
+  "authConfirmPasswordLabel": "تأكيد كلمة المرور",
+  "authSecretQuestionLabel": "السؤال السري",
+  "authSecretAnswerLabel": "جواب السؤال السري",
+  "authRecoveryHintLabel": "تلميح لاسترجاع الرمز (اختياري)",
+  "authNewPasswordLabel": "كلمة المرور الجديدة",
+  "authRecoveryCodeLabel": "رمز الاستعادة",
+
+  "authCreateAccount": "إنشاء الحساب",
+  "authLogin": "تسجيل الدخول",
+  "authBiometric": "الدخول بالبصمة",
+  "authSetPassword": "تعيين كلمة المرور",
+  "authVerifyCode": "التحقق من الرمز",
+  "authVerifyAnswer": "التحقق من الجواب",
+  "authContinue": "متابعة",
+
+  "authForgotPassword": "نسيت كلمة المرور؟",
+
+  "authRecoveryCodeTitle": "رمز الاستعادة الخاص بك",
+  "authRecoveryCodeIntro": "احتفظ بهذا الرمز في مكان آمن. لن يُعرض مرة أخرى.",
+  "authRecoveryCodeSavedLabel": "لقد حفظت رمز الاستعادة",
+
+  "authRecoveryMethodLabel": "طريقة الاستعادة",
+  "authMethodRecoveryCode": "رمز الاستعادة",
+  "authMethodSecretQuestion": "السؤال السري",
+
+  "authLockedTitle": "الوصول مقفل مؤقتاً",
+  "authLockedMessage": "محاولات كثيرة غير صحيحة. لأسباب أمنية، الاستعادة بالسؤال السري مقفلة مؤقتاً.",
+  "authLockedRemaining": "إعادة الفتح بعد {minutes} دقيقة.",
+  "@authLockedRemaining": {
+    "placeholders": {
+      "minutes": { "type": "int" }
+    }
+  },
+  "authAttemptsRemaining": "المحاولات المتبقية قبل القفل: {count}",
+  "@authAttemptsRemaining": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "authPasswordResetDone": "تم تحديث كلمة المرور. سجّل الدخول ببياناتك الجديدة.",
+
+  "authLoading": "الرجاء الانتظار…",
+  "authBiometricReason": "أكد هويتك للمتابعة.",
+
+  "validationRequired": "هذا الحقل إلزامي.",
+  "validationEmailInvalid": "البريد الإلكتروني غير صالح.",
+  "validationPasswordsMismatch": "كلمتا المرور غير متطابقتين.",
+
+  "homeTitle": "لوحة التحكم",
+  "homeWelcome": "مرحباً",
+  "homeLockAction": "قفل",
+  "settingsTitle": "الإعدادات",
+
+  "actionGenerate": "توليد",
+  "actionScan": "مسح",
+
+  "catalogTitle": "الكتالوج",
+  "catalogOpenAction": "فتح الكتالوج",
+  "catalogTabProducts": "المنتجات",
+  "catalogTabCategories": "الفئات",
+  "catalogTabSuppliers": "الموردون",
+  "catalogEmptyProducts": "لا توجد منتجات بعد.",
+  "catalogEmptyCategories": "لا توجد فئات بعد.",
+  "catalogEmptySuppliers": "لا يوجد موردون بعد.",
+  "catalogNoResults": "لا توجد نتائج.",
+
+  "productNewTitle": "منتج جديد",
+  "productEditTitle": "تعديل المنتج",
+  "productSearchHint": "ابحث بالاسم أو الباركود…",
+  "productFilterCategory": "كل الفئات",
+  "productFilterSupplier": "كل الموردين",
+  "productBarcodeHint": "اتركه فارغاً للتوليد التلقائي",
+  "productInitialStock": "المخزون الابتدائي",
+  "productSoldByCarton": "يُباع أيضاً بالكرتون",
+  "productSoldBySack": "يُباع أيضاً بالكيس",
+  "productActive": "منتج نشط",
+  "productInactiveLabel": "غير نشط",
+  "productMargin": "الهامش للوحدة",
+  "fieldBaseUnit": "وحدة البيع",
+
+  "categoryNewTitle": "فئة جديدة",
+  "categoryEditTitle": "تعديل الفئة",
+  "fieldColor": "اللون",
+
+  "supplierNewTitle": "مورد جديد",
+  "supplierEditTitle": "تعديل المورد",
+  "supplierCall": "اتصال",
+
+  "deleteConfirmTitle": "تأكيد",
+  "deleteConfirmBody": "لا يمكن التراجع عن هذا الإجراء.",
+  "productDeleteConfirm": "حذف هذا المنتج؟",
+  "categoryDeleteConfirm": "حذف هذه الفئة؟",
+  "supplierDeleteConfirm": "حذف هذا المورد؟",
+
+  "validationBarcodeInvalid": "باركود غير صالح.",
+  "validationNumberInvalid": "يرجى إدخال عدد صالح.",
+  "validationPositiveNumber": "يرجى إدخال عدد موجب.",
+
+  "scannerTitle": "مسح الباركود",
+  "scannerHint": "ضع الباركود داخل الإطار.",
+  "scannerPermissionDenied": "الوصول إلى الكاميرا مطلوب للمسح.",
+  "scannerUnavailable": "الماسح غير متاح على هذا الجهاز.",
+
+  "salesTodayTitle": "مبيعات اليوم",
+  "salesOpenAction": "فتح المبيعات",
+  "saleNewAction": "بيع جديد",
+  "saleAddProductAction": "إضافة منتج",
+  "saleSearchHint": "ابحث عن منتج لإضافته…",
+  "saleCartEmpty": "السلة فارغة.",
+  "saleClearAction": "إفراغ السلة",
+  "saleEmptyToday": "لا توجد مبيعات مسجّلة اليوم.",
+  "saleNoProductFound": "لم يتم العثور على منتج.",
+  "saleCheckoutAction": "تحصيل",
+  "saleCheckoutDone": "تم تسجيل البيع.",
+  "saleDetailTitle": "تفاصيل البيع",
+  "saleCancelAction": "إلغاء البيع",
+  "saleCancelConfirm": "هل تريد إلغاء هذا البيع وإرجاع العناصر إلى المخزون؟",
+  "saleCancelDone": "تم إلغاء البيع وإرجاع العناصر إلى المخزون.",
+  "saleCancelledLabel": "ملغاة",
+  "saleModeLabel": "نمط البيع",
+  "salePackagingLabel": "التعبئة",
+  "saleUnitPriceLabel": "سعر الوحدة",
+  "saleEditLineTitle": "تعديل السطر",
+  "saleStockWarning": "المخزون المتاح غير كافٍ.",
+  "saleItemsCount": "العناصر: {count}",
+  "@saleItemsCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "saleTicketAction": "التذكرة",
+  "saleTicketTitle": "تذكرة البيع",
+  "saleTicketPrintAction": "طباعة",
+  "saleTicketShareAction": "مشاركة PDF",
+  "saleTicketPrintDone": "تم إرسال التذكرة إلى الطابعة.",
+  "saleTicketSelectPrinter": "اختر طابعة",
+  "saleTicketNoPrinter": "لا توجد طابعة مقترنة.",
+  "saleTicketQuantityHeader": "الكمية",
+  "saleTicketAmountHeader": "المبلغ",
+
+  "reportsTitle": "التقارير",
+  "reportsOpenAction": "فتح التقارير",
+  "reportPeriodDay": "يوم",
+  "reportPeriodWeek": "أسبوع",
+  "reportPeriodMonth": "شهر",
+  "reportPeriodCustom": "فترة",
+  "reportPeriodPickRange": "اختر نطاق التواريخ",
+  "reportRangeSummary": "من {start} إلى {end}",
+  "@reportRangeSummary": {
+    "placeholders": {
+      "start": { "type": "String" },
+      "end": { "type": "String" }
+    }
+  },
+  "reportRevenueLabel": "الإيرادات",
+  "reportAverageBasketLabel": "متوسط السلة",
+  "reportQuantitySoldLabel": "الكمية المباعة",
+  "reportCancelledCount": "المبيعات الملغاة: {count}",
+  "@reportCancelledCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "reportDailyChartTitle": "الإيرادات حسب اليوم",
+  "reportTopProductsTitle": "الأكثر مبيعاً",
+  "reportEmptyPeriod": "لا توجد مبيعات في هذه الفترة.",
+  "reportShareAction": "مشاركة PDF",
+  "reportShareDone": "تم إنشاء تقرير PDF."
+}
